@@ -2,13 +2,13 @@
 
 int main()
 {
-    char x = 'a';
-    char y = 'b';
+int a;
+int b;
+int risultato a / b;
+printf("inserisci un numero a\n");
+scanf("%d", &a);
+printf("inserisci un numero b\n");
+scanf("%d", &b);
+printf("divisione di a e b: %d\n", risultato);
 
-    printf("x era: %c\n", x);
-    printf("y era: %c\n", y);
-    printf("inserisci due caratteri \n");
-    scanf("%c %c", &x, &y);
-    printf("x è diventato: %c\n", x);
-    printf("y è diventato: %c\n", y);
 }
